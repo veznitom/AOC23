@@ -298,7 +298,7 @@ fn main() {
         tmp.sort_by(|a, b| hand_cmp_2(&a.0.chars().collect(), &b.0.chars().collect()));
         sorted.push(tmp);
     }
-    print_sorted(&sorted);
+    //print_sorted(&sorted);
     let win = sum_ranked(&sorted);
     println!("Winnings with Jokers: {}", win);
 }
